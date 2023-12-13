@@ -5,9 +5,21 @@
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-000.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 
-<br><br>
+<br>
+
+<details id="nav" open>
+<summary><b>Contents</b></summary><br>
+
+- [**Overview**](#overview)
+- [**Installation**](#installation) 
+- [**Getting started**](#getting-started)
+- [**Author**](#author) 
+- [**Licence**](#licence)
+
+</details>
 
 ## Overview
+<sup>[**\[ Back to Contents  ↑ \]**](#nav)</sup>
 
 **My Friends System** is a small application to maintain your friendlist. Or, just a simplified social network.
 
@@ -21,6 +33,7 @@
 ![demo.png](static/demo.png)
 
 ## Installation
+<sup>[**\[ Back to Contents  ↑ \]**](#nav)</sup>
 
 - Clone this repo
   ```
@@ -30,6 +43,7 @@
 - Before starting the servers, configure the database credentials in `settings.php`.
 
 ## Getting started
+<sup>[**\[ Back to Contents  ↑ \]**](#nav)</sup>
 
 You can either: 
 - put the whole repo under xampp/htdocs 
@@ -38,11 +52,13 @@ You can either:
 Once ready, just start the Web server and the MySQL server, and the application can be used.
 
 ## Author
+<sup>[**\[ Back to Contents  ↑ \]**](#nav)</sup>
 
 | Name                 | Student ID | Email                         |
 | :------------------- | ---------- | :---------------------------: |
 | Ryan Vu              | 103511424  | 103511424@student.swin.edu.au |
 
 ## Licence
+<sup>[**\[ Back to Contents  ↑ \]**](#nav)</sup>
 
 This software/application is provided under `MIT Licence`.
