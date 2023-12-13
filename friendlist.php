@@ -1,7 +1,6 @@
 <?php 
     require_once("processpage.php"); 
 
-    $curPage = 1;
     if(isset($_GET["unfriend_id"]) && !empty($_GET["unfriend_id"])) {
         $remove_id = $_GET["unfriend_id"];
         // execute unfriend actions
@@ -85,7 +84,7 @@
                             <?php
                                 // print cards
                                 $pFriendList = new Paginator(5, $friend_ids);
-                                $pFriendList->set_cur_page($curPage);
+                                $pFriendList->set_cur_page($pageNum);
                                 $friend_ids_page = $pFriendList->get_page();
                                 $friends = array();
                                 echo (empty($friend_ids_page) ? "<p class='fs-2 text-center'>You have no friends!</p>" : "");
