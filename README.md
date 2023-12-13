@@ -40,7 +40,7 @@
   git clone https://github.com/Ryan5358/my-friend-system.git
   ```
 - This software requires a web server, e.g, `Apache` and a `MySQL` server for relational database management. It is recommended to use this All-In-One solution, [`XAMPP`](https://www.apachefriends.org/download.html).
-- Before starting the server, configure the database credentials in `settings.php`.
+- Before starting the servers, configure the database credentials in `settings.php`.
 
 ## Getting started
 <sup>[**\[ Back to Contents  ↑ \]**](#nav)</sup>
