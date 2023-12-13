@@ -26,7 +26,7 @@
 #### Core Functionalities
 - Maintain friendlist
 - Provide counter for mutual friends
-- PHP Session login
+- PHP Session: login/register, log out
 
 <br>
 
